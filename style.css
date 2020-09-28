@@ -1,0 +1,50 @@
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Georgia, serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7em auto;
+    width: 30%;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    background-color: rgba(141, 141, 138, 0.5);
+}
+
+.root header {
+    margin-bottom: 1em;
+}
+
+.container p + p {
+    margin-top: 0.5em;
+}
+
+.container span {
+    padding: 0.3em 0.2em;
+    border-radius: 0.2em;
+}
+
+.green {
+    background-color: rgb(0, 128, 0, 0.5);
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
