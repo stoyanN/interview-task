@@ -1,5 +1,5 @@
 # interview-task
-## JS interview terms and conditions
+## JS interview task - terms and conditions
 
 As a user I need to see the latest forex rates which are available form our api (currencies.json file attached)
 
