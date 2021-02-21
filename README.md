@@ -30,3 +30,5 @@ The task should be implemented using either Vanilla JavaScript, Angular or React
 You are free to style the page as you wish
 Please provide a working solution in GitHub  or any GitHub alternative
 
+### Installation 
+In order to run the program, when you clone the repository, you should open the terminal with the current location of the project and run `npm i` to install all the dependencies.
